@@ -1,0 +1,80 @@
+.MenteeProfile-contact-card {
+    flex-basis: 300px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.76);
+    max-width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(
+      147deg,
+      rgba(4, 97, 159, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 54%
+    );
+  }
+  
+  .MenteeProfile-regdno {
+    text-transform: uppercase;
+    background-color:#b0ff5679;
+    border-radius: 10px;
+    color: black;
+    font-size: 23px;
+    font-weight: 700; 
+    padding: 10px;
+    margin: 10px;
+  }
+  .MenteeProfile-cause {
+    color: whitesmoke;
+    font-size: 17px;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 10px;
+    height: 100px;
+  }
+  
+  .contact--buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  .contact--button-accept {
+    padding: 10px;
+    width: 150px;
+    color: #ffffff;
+    border-radius: 0px 0px 0px 10px;
+    font-size: 20px;
+  
+    border-width: 0px;
+    background-color: #ffffff2d;
+    font-weight: 600;
+  }
+  .contact--button-accept:hover {
+    cursor: pointer;
+    color: green;
+  }
+  .contact--button-accept:active {
+    cursor: pointer;
+    box-shadow: 1px 1px 2px #0000001e;
+    /* background-color: #adf36b; */
+  }
+  .contact--button-reject {
+    padding: 10px;
+    width: 150px;
+    color: #ffffff;
+    border-radius: 0px 0px 10px 0px;
+    font-size: 20px;
+    border-width: 0px;
+    background-color: #ffffff3f;
+    font-weight: 700;
+  }
+  .contact--button-reject:hover {
+    cursor: pointer;
+    color: red;
+  }
+  .contact--button-reject:active {
+    cursor: pointer;
+    box-shadow: 1px 1px 2px #0000001e;
+    background-color: #f37f6b;
+  }

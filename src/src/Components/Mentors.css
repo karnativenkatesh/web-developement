@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  font-family: "vollkron";
+}
+.mentor-body {
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+  min-height: 100vh;
+}
+.contacts {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-card {
+  flex-basis: 300px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.76);
+  max-width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(
+    147deg,
+    rgba(4, 97, 159, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 54%
+  );
+}
+
+.contact-card > h5 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(5, 5, 5);
+  background-color: #b0ff5679;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.info-group {
+  color: aliceblue;
+  max-width: 270px;
+  text-align: justify;
+  display: block;
+  align-items: center;
+  height: 230px;
+}
+
+.info-group > p {
+  text-transform: lowercase;
+  margin-block: 3px;
+  font-size: 15px;
+  font-weight: 400;
+  color: azure;
+  text-align: start;
+  background-color: #e3e3fc1f;
+  padding: 15px;
+  border-radius: 15px;
+
+  padding-bottom: 25px;
+}
+.contact--tags {
+  margin: 10px;
+  padding-bottom: 25px;
+  position: relative;
+}
+.contact--tagItem {
+  text-transform: capitalize;
+  justify-content: center;
+  background-color: #9cacbf;
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.774);
+  border-radius: 10px;
+  margin: 5px;
+  padding: 4px 6px 4px 6px;
+  display: inline-block;
+  color: #0a1417;
+}
+.contact--tagItem:hover {
+  cursor: pointer;
+  background-color: #8195ad;
+  box-shadow: 1px 1px 3px rgb(134, 129, 129);
+}
+.contact--tagItem:active {
+  background-color: #19404d;
+  color: #8195ad;
+}
+.contact--button {
+  padding: 10px;
+  padding-top: 15px;
+  margin: -14.56px;
+  margin-bottom: -20px;
+  color: #012e67;
+  border-radius: 0 0 10px 10px;
+  font-size: 15px;
+  border-width: 0px;
+  background-color: #e3e3fc;
+  font-weight: 500;
+}
+.contact--button:hover {
+  cursor: pointer;
+  background-color: #8bc540;
+}
+.contact--button:active {
+  cursor: pointer;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.116);
+  background-color: #adf36b;
+}
+
+.contact--buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+.contact--button-accept {
+  padding: 10px;
+  width: 150px;
+  color: #012e67;
+  border-radius: 0px 0px 0px 10px;
+  font-size: 20px;
+  border-width: 0px;
+  background-color: #e3e3fc;
+  font-weight: 500;
+}
+.contact--button-accept:hover {
+  cursor: pointer;
+  background-color: #a4f15c;
+}
+.contact--button-accept:active {
+  cursor: pointer;
+  box-shadow: 1px 1px 2px #0000001e;
+  background-color: #adf36b;
+}
+.contact--button-reject {
+  padding: 10px;
+  width: 150px;
+  color: #012e67;
+  border-radius: 0px 0px 10px 0px;
+  font-size: 20px;
+  border-width: 0px;
+  background-color: #e3e3fc;
+  font-weight: 500;
+}
+.contact--button-reject:hover {
+  cursor: pointer;
+  background-color: #f5a69c;
+}
+.contact--button-reject:active {
+  cursor: pointer;
+  box-shadow: 1px 1px 2px #0000001e;
+  background-color: #f37f6b;
+}
+.rating {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ===== rating button START ==============*/
+.mentorRating {
+  display: flex;
+  flex-direction: column;
+}
+.ratingButton {
+  background-color: #8bc540;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 82px;
+  font-size: 13px;
+  font-weight: 500;
+  width: 110px;
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.295);
+}
+.ratingButtonStars {
+  padding-left: 90px;
+}
+
+/* ===== rating button END =================*/

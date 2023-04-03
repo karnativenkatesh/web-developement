@@ -1,0 +1,110 @@
+.mentor-body {
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    min-height: 100vh;
+  }
+  .mentor-contacts {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    background-color: transparent;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .mentor-contact-card {
+    margin-bottom: 20px;
+    flex-basis: 300px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.76);
+    max-width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(
+      147deg,
+      rgba(4, 97, 159, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 54%
+    );
+  }
+  
+  .mentor-contact-card > h5 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(5, 5, 5);
+    background-color: #b0ff5679;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .mentor-info-group {
+    color: aliceblue;
+    max-width: 270px;
+    text-align: justify;
+    display: block;
+    align-items: center;
+  }
+  
+  .mentor-info-group > p {
+    text-transform: lowercase;
+    margin-block: 3px;
+    font-size: 15px;
+    font-weight: 400;
+    color: azure;
+    text-align: start;
+    background-color: #e3e3fc1f;
+    padding: 15px;
+    border-radius: 15px;
+  
+    padding-bottom: 25px;
+  }
+  .mentor-contact--tags {
+    margin: 10px;
+    position: relative;
+  }
+  .mentor-contact--tagItem {
+    text-transform: capitalize;
+    justify-content: center;
+    background-color: #9cacbf;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.774);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 4px 6px 4px 6px;
+    display: inline-block;
+    color: #0a1417;
+  }
+  .mentor-contact--tagItem:hover {
+    cursor: pointer;
+    background-color: #8195ad;
+    box-shadow: 1px 1px 3px rgb(134, 129, 129);
+  }
+  .mentor-contact--tagItem:active {
+    background-color: #19404d;
+    color: #8195ad;
+  }
+
+  .contact--button1 {
+    padding: 10px;
+    padding-top: 15px;
+    margin: -14.56px;
+    margin-bottom: -20px;
+    color: #012e67;
+    border-radius: 0 0 10px 10px;
+    font-size: 15px;
+    border-width: 0px;
+    background-color: #e3e3fc;
+    font-weight: 500;
+  }
+  .contact--button1:hover {
+    cursor: pointer;
+    background-color: #8bc540;
+  }
+  .contact--button1:active {
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.116);
+    background-color: #adf36b;
+  }
